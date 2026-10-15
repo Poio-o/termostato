@@ -1,0 +1,13 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+app-control-temperature {
+    flex: 0 0 50%;
+}
+
+app-display-thermostate {
+    flex: 1;
+}

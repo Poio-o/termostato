@@ -1,0 +1,7 @@
+<h1> {{temperatureInput()}} ºC </h1>
+<!-- @if (temperatureInput() > umbral) {
+    <h1>⚠️ Temperatura por encima del umbral:  {{umbralInput}}</h1>
+} -->
+@if (alarm) {
+<h1>⚠️ Temperatura por encima del umbral: {{umbralInput()}}</h1>
+}
